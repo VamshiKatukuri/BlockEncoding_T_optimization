@@ -1,0 +1,649 @@
+{
+ "obstruction": {
+  "block": "isotropic triangle, lambda = 3",
+  "distinct_entries": [
+   -0.333333,
+   0.0,
+   0.666667,
+   1.0
+  ],
+  "in_Z[1/sqrt2,i]": false,
+  "reason": "entries 1/3 and 2/3 are not dyadic"
+ },
+ "ring": [
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 8,
+   "N": 64,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.5446210745710642
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 10,
+   "N": 100,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.544621074571064
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 16,
+   "N": 256,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.5446210745710642
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 20,
+   "N": 400,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.544621074571064
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 30,
+   "N": 900,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.544621074571064
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 32,
+   "N": 1024,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.5446210745710642
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "L": 64,
+   "N": 4096,
+   "half_width": 0.7500000000000001,
+   "ring_lambda": 1.0,
+   "alpha_penalty": 1.333333333333333,
+   "lambda_eff_penalty_recentred": 1.183649706698781,
+   "lambda_eff_penalty_same_center": 1.5446210745710642
+  },
+  {
+   "lattice": "kagome",
+   "L": 4,
+   "N": 48,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282163,
+   "lambda_eff_penalty_same_center": 2.0914138672143543
+  },
+  {
+   "lattice": "kagome",
+   "L": 6,
+   "N": 108,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282163,
+   "lambda_eff_penalty_same_center": 2.091413867214355
+  },
+  {
+   "lattice": "kagome",
+   "L": 8,
+   "N": 192,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282163,
+   "lambda_eff_penalty_same_center": 2.0914138672143543
+  },
+  {
+   "lattice": "kagome",
+   "L": 10,
+   "N": 300,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282165,
+   "lambda_eff_penalty_same_center": 2.0914138672143543
+  },
+  {
+   "lattice": "kagome",
+   "L": 16,
+   "N": 768,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282163,
+   "lambda_eff_penalty_same_center": 2.0914138672143543
+  },
+  {
+   "lattice": "kagome",
+   "L": 18,
+   "N": 972,
+   "half_width": 3.0,
+   "ring_lambda": 4.0,
+   "alpha_penalty": 1.3333333333333333,
+   "lambda_eff_penalty_recentred": 1.1641043163282163,
+   "lambda_eff_penalty_same_center": 2.0914138672143543
+  }
+ ],
+ "synthillation": [
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 8,
+   "eps": 0.01,
+   "local_share": 0.004901960784313725,
+   "synthillation_bound": 1.0049261083743841,
+   "rotation_share": 0.31862745098039214
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 8,
+   "eps": 0.001,
+   "local_share": 0.004347826086956522,
+   "synthillation_bound": 1.0043668122270741,
+   "rotation_share": 0.39565217391304347
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 10,
+   "eps": 0.01,
+   "local_share": 0.002531645569620253,
+   "synthillation_bound": 1.00253807106599,
+   "rotation_share": 0.3392405063291139
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 10,
+   "eps": 0.001,
+   "local_share": 0.0024096385542168677,
+   "synthillation_bound": 1.002415458937198,
+   "rotation_share": 0.3710843373493976
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 16,
+   "eps": 0.01,
+   "local_share": 0.0016420361247947454,
+   "synthillation_bound": 1.0016447368421053,
+   "rotation_share": 0.13464696223316913
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 16,
+   "eps": 0.001,
+   "local_share": 0.0016025641025641025,
+   "synthillation_bound": 1.0016051364365972,
+   "rotation_share": 0.15544871794871795
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 20,
+   "eps": 0.01,
+   "local_share": 0.0009852216748768472,
+   "synthillation_bound": 1.0009861932938855,
+   "rotation_share": 0.1477832512315271
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 20,
+   "eps": 0.001,
+   "local_share": 0.0010559662090813093,
+   "synthillation_bound": 1.0010570824524314,
+   "rotation_share": 0.08658922914466737
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 30,
+   "eps": 0.01,
+   "local_share": 0.0004909180166912126,
+   "synthillation_bound": 1.0004911591355599,
+   "rotation_share": 0.07560137457044673
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 30,
+   "eps": 0.001,
+   "local_share": 0.0005089058524173028,
+   "synthillation_bound": 1.00050916496945,
+   "rotation_share": 0.04173027989821883
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 32,
+   "eps": 0.01,
+   "local_share": 0.0004731488052992666,
+   "synthillation_bound": 1.000473372781065,
+   "rotation_share": 0.0220014194464159
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 32,
+   "eps": 0.001,
+   "local_share": 0.0004720320981826764,
+   "synthillation_bound": 1.0004722550177096,
+   "rotation_share": 0.024309653056407837
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 64,
+   "eps": 0.01,
+   "local_share": 0.0001210140981424336,
+   "synthillation_bound": 1.0001210287443267,
+   "rotation_share": 0.005869183759908029
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "swap",
+   "L": 64,
+   "eps": 0.001,
+   "local_share": 0.00012088244182532487,
+   "synthillation_bound": 1.0001208970561566,
+   "rotation_share": 0.00695074040495618
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 8,
+   "eps": 0.01,
+   "local_share": 0.33653846153846156,
+   "synthillation_bound": 1.5072463768115942,
+   "rotation_share": 0.2980769230769231
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 8,
+   "eps": 0.001,
+   "local_share": 0.38392857142857145,
+   "synthillation_bound": 1.6231884057971013,
+   "rotation_share": 0.3482142857142857
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 10,
+   "eps": 0.01,
+   "local_share": 0.20153061224489796,
+   "synthillation_bound": 1.2523961661341854,
+   "rotation_share": 0.3622448979591837
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 10,
+   "eps": 0.001,
+   "local_share": 0.21739130434782608,
+   "synthillation_bound": 1.2777777777777777,
+   "rotation_share": 0.3961352657004831
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 16,
+   "eps": 0.01,
+   "local_share": 0.12624584717607973,
+   "synthillation_bound": 1.144486692015209,
+   "rotation_share": 0.11295681063122924
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 16,
+   "eps": 0.001,
+   "local_share": 0.15161290322580645,
+   "synthillation_bound": 1.1787072243346008,
+   "rotation_share": 0.13870967741935483
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 20,
+   "eps": 0.01,
+   "local_share": 0.08840864440078586,
+   "synthillation_bound": 1.0969827586206897,
+   "rotation_share": 0.16110019646365423
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 20,
+   "eps": 0.001,
+   "local_share": 0.09241245136186771,
+   "synthillation_bound": 1.1018220793140407,
+   "rotation_share": 0.16926070038910507
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 30,
+   "eps": 0.01,
+   "local_share": 0.04330708661417323,
+   "synthillation_bound": 1.0452674897119343,
+   "rotation_share": 0.07874015748031496
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 30,
+   "eps": 0.001,
+   "local_share": 0.024077868852459015,
+   "synthillation_bound": 1.0246719160104987,
+   "rotation_share": 0.042008196721311473
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 32,
+   "eps": 0.01,
+   "local_share": 0.039962825278810406,
+   "synthillation_bound": 1.0416263310745402,
+   "rotation_share": 0.0362453531598513
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 32,
+   "eps": 0.001,
+   "local_share": 0.023167848699763592,
+   "synthillation_bound": 1.0237173281703775,
+   "rotation_share": 0.02033096926713948
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 64,
+   "eps": 0.01,
+   "local_share": 0.005930049618782524,
+   "synthillation_bound": 1.0059654248843437,
+   "rotation_share": 0.005203921094033644
+  },
+  {
+   "lattice": "square J1-J2 0.5",
+   "method": "triangle",
+   "L": 64,
+   "eps": 0.001,
+   "local_share": 0.006170598911070781,
+   "synthillation_bound": 1.006208911614317,
+   "rotation_share": 0.0054446460980036296
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 4,
+   "eps": 0.01,
+   "local_share": 0.00411522633744856,
+   "synthillation_bound": 1.0041322314049586,
+   "rotation_share": 0.5349794238683128
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 4,
+   "eps": 0.001,
+   "local_share": 0.003389830508474576,
+   "synthillation_bound": 1.0034013605442176,
+   "rotation_share": 0.6169491525423729
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 6,
+   "eps": 0.01,
+   "local_share": 0.002570694087403599,
+   "synthillation_bound": 1.0025773195876289,
+   "rotation_share": 0.3444730077120823
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 6,
+   "eps": 0.001,
+   "local_share": 0.0025188916876574307,
+   "synthillation_bound": 1.0025252525252526,
+   "rotation_share": 0.35768261964735515
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 8,
+   "eps": 0.01,
+   "local_share": 0.0017574692442882249,
+   "synthillation_bound": 1.0017605633802817,
+   "rotation_share": 0.28822495606326887
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 8,
+   "eps": 0.001,
+   "local_share": 0.001669449081803005,
+   "synthillation_bound": 1.0016722408026755,
+   "rotation_share": 0.32387312186978295
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 10,
+   "eps": 0.01,
+   "local_share": 0.0012547051442910915,
+   "synthillation_bound": 1.0012562814070352,
+   "rotation_share": 0.178168130489335
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 10,
+   "eps": 0.001,
+   "local_share": 0.0012239902080783353,
+   "synthillation_bound": 1.0012254901960784,
+   "rotation_share": 0.19828641370869032
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 16,
+   "eps": 0.01,
+   "local_share": 0.0005724098454493417,
+   "synthillation_bound": 1.0005727376861397,
+   "rotation_share": 0.10646823125357756
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 16,
+   "eps": 0.001,
+   "local_share": 0.0006009615384615385,
+   "synthillation_bound": 1.000601322910403,
+   "rotation_share": 0.061899038461538464
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 18,
+   "eps": 0.01,
+   "local_share": 0.00046490004649000463,
+   "synthillation_bound": 1.0004651162790699,
+   "rotation_share": 0.06601580660158066
+  },
+  {
+   "lattice": "kagome",
+   "method": "swap",
+   "L": 18,
+   "eps": 0.001,
+   "local_share": 0.00047664442326024784,
+   "synthillation_bound": 1.000476871721507,
+   "rotation_share": 0.04242135367016206
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 4,
+   "eps": 0.01,
+   "local_share": 0.24285714285714285,
+   "synthillation_bound": 1.3207547169811322,
+   "rotation_share": 0.2
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 4,
+   "eps": 0.001,
+   "local_share": 0.4175824175824176,
+   "synthillation_bound": 1.716981132075472,
+   "rotation_share": 0.37362637362637363
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 6,
+   "eps": 0.01,
+   "local_share": 0.19154228855721392,
+   "synthillation_bound": 1.2369230769230768,
+   "rotation_share": 0.34328358208955223
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 6,
+   "eps": 0.001,
+   "local_share": 0.21296296296296297,
+   "synthillation_bound": 1.2705882352941178,
+   "rotation_share": 0.3888888888888889
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 8,
+   "eps": 0.01,
+   "local_share": 0.1625,
+   "synthillation_bound": 1.1940298507462686,
+   "rotation_share": 0.14583333333333334
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 8,
+   "eps": 0.001,
+   "local_share": 0.1762295081967213,
+   "synthillation_bound": 1.2139303482587065,
+   "rotation_share": 0.1598360655737705
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 10,
+   "eps": 0.01,
+   "local_share": 0.10513447432762836,
+   "synthillation_bound": 1.1174863387978142,
+   "rotation_share": 0.19070904645476772
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 10,
+   "eps": 0.001,
+   "local_share": 0.11177884615384616,
+   "synthillation_bound": 1.1258457374830853,
+   "rotation_share": 0.20432692307692307
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 16,
+   "eps": 0.01,
+   "local_share": 0.0463980463980464,
+   "synthillation_bound": 1.0486555697823303,
+   "rotation_share": 0.04151404151404151
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 16,
+   "eps": 0.001,
+   "local_share": 0.03041589075108628,
+   "synthillation_bound": 1.031370038412292,
+   "rotation_share": 0.02669149596523898
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 18,
+   "eps": 0.01,
+   "local_share": 0.042766151046405826,
+   "synthillation_bound": 1.0446768060836502,
+   "rotation_share": 0.07825295723384895
+  },
+  {
+   "lattice": "kagome",
+   "method": "triangle",
+   "L": 18,
+   "eps": 0.001,
+   "local_share": 0.024574669187145556,
+   "synthillation_bound": 1.0251937984496124,
+   "rotation_share": 0.043478260869565216
+  }
+ ],
+ "nested": [
+  {
+   "patch": "J1-J2 triangle r=0.25 (lcvcbe tri_0.25)",
+   "class_eigenvalues": [
+    -0.875,
+    -0.375,
+    0.625
+   ],
+   "weights_b": [
+    0.25,
+    0.5
+   ],
+   "sum_b": 0.75,
+   "half_width": 0.75,
+   "eigen_rotations_spectral": 2,
+   "prep_rotations_nested": 2
+  },
+  {
+   "patch": "isotropic tetrahedron",
+   "class_eigenvalues": [
+    -6.0,
+    -2.0,
+    6.0
+   ],
+   "weights_b": [
+    2.0,
+    4.0
+   ],
+   "sum_b": 6.0,
+   "half_width": 6.0,
+   "eigen_rotations_spectral": 2,
+   "prep_rotations_nested": 2
+  }
+ ]
+}
