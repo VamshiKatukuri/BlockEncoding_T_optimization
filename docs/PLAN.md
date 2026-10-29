@@ -1,5 +1,8 @@
 # Plan: magic-state-aware block encodings
 
+Status 2026-10-29: phases 0-5 done at non-HPC scope, see `RESULTS.md`. Go/no-go: 1 pass, 2 fail at moderate N
+(2b adds a second-order precision rule), 3 fail, 4 fail.
+
 Question: can magic-state preparation (distillation, cultivation, CCZ factories, parallel "fountains") be
 co-designed with routed, low-frustration block encodings so that the real cost (factory space-time and
 wall-clock) falls well below what T-count accounting suggests?
