@@ -1,6 +1,7 @@
 # Plan: magic-state-aware block encodings
 
-Status 2026-10-29: phases 0-5 done at non-HPC scope, see `RESULTS.md`. Go/no-go: 1 pass, 2 fail at moderate N
+Status 2026-10-30: phases 0-6 done at non-HPC scope, see `RESULTS.md`. Phase 6 (phase-gradient rotations re-priced
+with CCZ states, `bet/phase_gradient.py`) fails its 1.5x go/no-go. Earlier go/no-go: 1 pass, 2 fail at moderate N
 (2b adds a second-order precision rule), 3 fail, 4 fail.
 
 Question: can magic-state preparation (distillation, cultivation, CCZ factories, parallel "fountains") be

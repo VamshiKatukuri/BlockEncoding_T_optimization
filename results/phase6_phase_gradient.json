@@ -1,0 +1,3122 @@
+[
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 8,
+  "N": 64,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 1.321039827648219e-06,
+  "R": 2,
+  "b": 21,
+  "n3": 139,
+  "t": 0,
+  "T_rot_synth": 130,
+  "T_per_rot_synth": 65.0,
+  "toffoli_per_rot_PG": 19,
+  "one_time": {
+   "logical_qubits": 42,
+   "gradient_state_rotations": 21
+  },
+  "T4": {
+   "synth": 686,
+   "PG": 708
+  },
+  "matched 0.001": {
+   "synth": 343.03260869565213,
+   "PG": 271.27173913043475,
+   "no rotations": 213.03260869565216,
+   "rotation share (synth)": 0.3789727177667227,
+   "gain PG": 1.2645350002003446,
+   "gain bound": 1.6102352160824531
+  },
+  "BEST 0.001": {
+   "synth_run": 34202697120000,
+   "PG_run": 29675869560000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.152542372881356,
+   "gain PG": 1.152542372881356
+  },
+  "matched 0.0001": {
+   "synth": 297.4743935309973,
+   "PG": 213.25876010781673,
+   "no rotations": 167.4743935309973,
+   "rotation share (synth)": 0.4370124045196307,
+   "gain PG": 1.3948988232914976,
+   "gain bound": 1.7762380699467273
+  },
+  "BEST 0.0001": {
+   "synth_run": 844258690800,
+   "PG_run": 871334042400,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9689265536723164
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 8,
+  "N": 64,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 1.321039827648219e-07,
+  "R": 2,
+  "b": 24,
+  "n3": 139,
+  "t": 0,
+  "T_rot_synth": 182,
+  "T_per_rot_synth": 91.0,
+  "toffoli_per_rot_PG": 22,
+  "one_time": {
+   "logical_qubits": 48,
+   "gradient_state_rotations": 24
+  },
+  "T4": {
+   "synth": 738,
+   "PG": 732
+  },
+  "matched 0.001": {
+   "synth": 395.03260869565213,
+   "PG": 280.4673913043478,
+   "no rotations": 213.03260869565216,
+   "rotation share (synth)": 0.46072145942822557,
+   "gain PG": 1.4084796341510677,
+   "gain bound": 1.8543293025154344
+  },
+  "BEST 0.001": {
+   "synth_run": 385612806600000,
+   "PG_run": 306813667860000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.2568306010928962,
+   "gain PG": 1.2568306010928962
+  },
+  "matched 0.0001": {
+   "synth": 349.4743935309973,
+   "PG": 220.4878706199461,
+   "no rotations": 167.4743935309973,
+   "rotation share (synth)": 0.5207820755080791,
+   "gain PG": 1.5850050732876124,
+   "gain bound": 2.086733297925418
+  },
+  "BEST 0.0001": {
+   "synth_run": 27203360436000,
+   "PG_run": 26982194904000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0081967213114753,
+   "gain PG": 1.0081967213114753
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 10,
+  "N": 100,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 4.2273274484743013e-07,
+  "R": 4,
+  "b": 22,
+  "n3": 261,
+  "t": 0,
+  "T_rot_synth": 268,
+  "T_per_rot_synth": 67.0,
+  "toffoli_per_rot_PG": 20,
+  "one_time": {
+   "logical_qubits": 44,
+   "gradient_state_rotations": 22
+  },
+  "T4": {
+   "synth": 1312,
+   "PG": 1364
+  },
+  "matched 0.001": {
+   "synth": 668.0108695652174,
+   "PG": 522.6195652173913,
+   "no rotations": 400.0108695652174,
+   "rotation share (synth)": 0.40119107668776544,
+   "gain PG": 1.2781972088766873,
+   "gain bound": 1.66998179397299
+  },
+  "BEST 0.001": {
+   "synth_run": 103476854400000,
+   "PG_run": 89330651520000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1583577712609971,
+   "gain PG": 1.1583577712609971
+  },
+  "matched 0.0001": {
+   "synth": 582.4663072776281,
+   "PG": 410.8544474393531,
+   "no rotations": 314.46630727762806,
+   "rotation share (synth)": 0.4601124505425854,
+   "gain PG": 1.4176950277837916,
+   "gain bound": 1.8522375650355285
+  },
+  "BEST 0.0001": {
+   "synth_run": 2522906726400,
+   "PG_run": 2622899980800,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9618768328445748
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 10,
+  "N": 100,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 4.227327448474301e-08,
+  "R": 4,
+  "b": 26,
+  "n3": 261,
+  "t": 0,
+  "T_rot_synth": 308,
+  "T_per_rot_synth": 77.0,
+  "toffoli_per_rot_PG": 24,
+  "one_time": {
+   "logical_qubits": 52,
+   "gradient_state_rotations": 26
+  },
+  "T4": {
+   "synth": 1352,
+   "PG": 1428
+  },
+  "matched 0.001": {
+   "synth": 708.0108695652174,
+   "PG": 547.141304347826,
+   "no rotations": 400.0108695652174,
+   "rotation share (synth)": 0.43502156992185703,
+   "gain PG": 1.294018316546477,
+   "gain bound": 1.7699790766555257
+  },
+  "BEST 0.001": {
+   "synth_run": 1087154866200000,
+   "PG_run": 935215149960000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1624649859943978,
+   "gain PG": 1.1624649859943978
+  },
+  "matched 0.0001": {
+   "synth": 622.4663072776281,
+   "PG": 430.1320754716981,
+   "no rotations": 314.46630727762806,
+   "rotation share (synth)": 0.4948058977634399,
+   "gain PG": 1.447151567562148,
+   "gain bound": 1.9794372016079953
+  },
+  "BEST 0.0001": {
+   "synth_run": 77868640096000,
+   "PG_run": 82245871344000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9467787114845938
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 16,
+  "N": 256,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 3.3025995691205474e-07,
+  "R": 2,
+  "b": 23,
+  "n3": 527,
+  "t": 0,
+  "T_rot_synth": 164,
+  "T_per_rot_synth": 82.0,
+  "toffoli_per_rot_PG": 21,
+  "one_time": {
+   "logical_qubits": 46,
+   "gradient_state_rotations": 23
+  },
+  "T4": {
+   "synth": 2272,
+   "PG": 2276
+  },
+  "matched 0.001": {
+   "synth": 971.6847826086956,
+   "PG": 872.0543478260869,
+   "no rotations": 807.6847826086956,
+   "rotation share (synth)": 0.1687790144862688,
+   "gain PG": 1.1142479651996162,
+   "gain bound": 1.2030495108132477
+  },
+  "BEST 0.001": {
+   "synth_run": 408415289940000,
+   "PG_run": 381589983540000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.070298769771529,
+   "gain PG": 1.070298769771529
+  },
+  "matched 0.0001": {
+   "synth": 798.9568733153639,
+   "PG": 685.5606469002696,
+   "no rotations": 634.9568733153639,
+   "rotation share (synth)": 0.2052676502042758,
+   "gain PG": 1.1654065572868133,
+   "gain bound": 1.258285258247053
+  },
+  "BEST 0.0001": {
+   "synth_run": 33499290432000,
+   "PG_run": 33558268056000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9982425307557118
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 16,
+  "N": 256,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 3.3025995691205476e-08,
+  "R": 2,
+  "b": 26,
+  "n3": 527,
+  "t": 0,
+  "T_rot_synth": 194,
+  "T_per_rot_synth": 97.0,
+  "toffoli_per_rot_PG": 24,
+  "one_time": {
+   "logical_qubits": 52,
+   "gradient_state_rotations": 26
+  },
+  "T4": {
+   "synth": 2302,
+   "PG": 2300
+  },
+  "matched 0.001": {
+   "synth": 1001.6847826086956,
+   "PG": 881.25,
+   "no rotations": 807.6847826086956,
+   "rotation share (synth)": 0.1936737019152515,
+   "gain PG": 1.136663583102066,
+   "gain bound": 1.2401927140107931
+  },
+  "BEST 0.001": {
+   "synth_run": 4184733720960000.0,
+   "PG_run": 3856124823000000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.085217391304348,
+   "gain PG": 1.085217391304348
+  },
+  "matched 0.0001": {
+   "synth": 828.9568733153639,
+   "PG": 692.7897574123989,
+   "no rotations": 634.9568733153639,
+   "rotation share (synth)": 0.23402906260262793,
+   "gain PG": 1.19654897383523,
+   "gain bound": 1.3055325615849285
+  },
+  "BEST 0.0001": {
+   "synth_run": 339415084328000,
+   "PG_run": 339120197200000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0008695652173913,
+   "gain PG": 1.0008695652173913
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 20,
+  "N": 400,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 1.0568318621185753e-07,
+  "R": 4,
+  "b": 24,
+  "n3": 865,
+  "t": 0,
+  "T_rot_synth": 300,
+  "T_per_rot_synth": 75.0,
+  "toffoli_per_rot_PG": 22,
+  "one_time": {
+   "logical_qubits": 48,
+   "gradient_state_rotations": 24
+  },
+  "T4": {
+   "synth": 3760,
+   "PG": 3812
+  },
+  "matched 0.001": {
+   "synth": 1625.7065217391303,
+   "PG": 1460.5760869565217,
+   "no rotations": 1325.7065217391303,
+   "rotation share (synth)": 0.18453515194062783,
+   "gain PG": 1.1130584269161214,
+   "gain bound": 1.2262944287295536
+  },
+  "BEST 0.001": {
+   "synth_run": 1063579158600000,
+   "PG_run": 998611761720000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0650577124868836,
+   "gain PG": 1.0650577124868836
+  },
+  "matched 0.0001": {
+   "synth": 1342.1967654986522,
+   "PG": 1148.22371967655,
+   "no rotations": 1042.1967654986522,
+   "rotation share (synth)": 0.22351417296743684,
+   "gain PG": 1.1689331464749253,
+   "gain bound": 1.2878535128215076
+  },
+  "BEST 0.0001": {
+   "synth_run": 86623195840000,
+   "PG_run": 87821176208000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9863588667366212
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 20,
+  "N": 400,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 1.0568318621185753e-08,
+  "R": 4,
+  "b": 28,
+  "n3": 865,
+  "t": 0,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 82.0,
+  "toffoli_per_rot_PG": 26,
+  "one_time": {
+   "logical_qubits": 56,
+   "gradient_state_rotations": 28
+  },
+  "T4": {
+   "synth": 3788,
+   "PG": 3876
+  },
+  "matched 0.001": {
+   "synth": 1653.7065217391303,
+   "PG": 1485.0978260869565,
+   "no rotations": 1325.7065217391303,
+   "rotation share (synth)": 0.19834232718333653,
+   "gain PG": 1.113533730028032,
+   "gain bound": 1.2474152420776452
+  },
+  "BEST 0.001": {
+   "synth_run": 35751788338800000,
+   "PG_run": 26500598049600000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^4_{13,5,5} x (20-to-4)_{27,13,15}"
+   },
+   "gain hybrid": 1.3490936420334725,
+   "gain PG": 1.3490936420334725
+  },
+  "matched 0.0001": {
+   "synth": 1370.1967654986522,
+   "PG": 1167.5013477088949,
+   "no rotations": 1042.1967654986522,
+   "rotation share (synth)": 0.23938167733203763,
+   "gain PG": 1.1736147184648025,
+   "gain bound": 1.3147198406848484
+  },
+  "BEST 0.0001": {
+   "synth_run": 872681447640000,
+   "PG_run": 892954934280000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.977296181630547
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 30,
+  "N": 900,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 4.6970304983047785e-08,
+  "R": 4,
+  "b": 25,
+  "n3": 1883,
+  "t": 0,
+  "T_rot_synth": 308,
+  "T_per_rot_synth": 77.0,
+  "toffoli_per_rot_PG": 23,
+  "one_time": {
+   "logical_qubits": 50,
+   "gradient_state_rotations": 25
+  },
+  "T4": {
+   "synth": 7840,
+   "PG": 7900
+  },
+  "matched 0.001": {
+   "synth": 3193.9021739130435,
+   "PG": 3026.9021739130435,
+   "no rotations": 2885.9021739130435,
+   "rotation share (synth)": 0.09643376134549872,
+   "gain PG": 1.0551719184846036,
+   "gain bound": 1.1067257243797621
+  },
+  "BEST 0.001": {
+   "synth_run": 4802607156060000.0,
+   "PG_run": 4656430600500000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0313924050632912,
+   "gain PG": 1.0313924050632912
+  },
+  "matched 0.0001": {
+   "synth": 2576.735849056604,
+   "PG": 2379.5822102425877,
+   "no rotations": 2268.735849056604,
+   "rotation share (synth)": 0.11953107266030592,
+   "gain PG": 1.082852207402373,
+   "gain bound": 1.1357584225277146
+  },
+  "BEST 0.0001": {
+   "synth_run": 406391558720000,
+   "PG_run": 409501698200000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9924050632911392
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 30,
+  "N": 900,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 4.697030498304779e-09,
+  "R": 4,
+  "b": 29,
+  "n3": 1883,
+  "t": 0,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 82.0,
+  "toffoli_per_rot_PG": 27,
+  "one_time": {
+   "logical_qubits": 58,
+   "gradient_state_rotations": 29
+  },
+  "T4": {
+   "synth": 7860,
+   "PG": 7964
+  },
+  "matched 0.001": {
+   "synth": 3213.9021739130435,
+   "PG": 3051.423913043478,
+   "no rotations": 2885.9021739130435,
+   "rotation share (synth)": 0.10205662221530781,
+   "gain PG": 1.053246702359198,
+   "gain bound": 1.113655966222604
+  },
+  "BEST 0.001": {
+   "synth_run": 166914003280800000,
+   "PG_run": 169122534621920000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9869412355600201
+  },
+  "matched 0.0001": {
+   "synth": 2596.735849056604,
+   "PG": 2398.859838274933,
+   "no rotations": 2268.735849056604,
+   "rotation share (synth)": 0.12631242416095678,
+   "gain PG": 1.0824875249585102,
+   "gain bound": 1.1445739045100338
+  },
+  "BEST 0.0001": {
+   "synth_run": 7650007775238000.0,
+   "PG_run": 7440725686614000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0281265695630337,
+   "gain PG": 1.0281265695630337
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 32,
+  "N": 1024,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 8.256498922801368e-08,
+  "R": 2,
+  "b": 25,
+  "n3": 2067,
+  "t": 0,
+  "T_rot_synth": 186,
+  "T_per_rot_synth": 93.0,
+  "toffoli_per_rot_PG": 23,
+  "one_time": {
+   "logical_qubits": 50,
+   "gradient_state_rotations": 25
+  },
+  "T4": {
+   "synth": 8454,
+   "PG": 8452
+  },
+  "matched 0.001": {
+   "synth": 3353.9021739130435,
+   "PG": 3238.4021739130435,
+   "no rotations": 3167.9021739130435,
+   "rotation share (synth)": 0.0554577892720679,
+   "gain PG": 1.03566573692743,
+   "gain bound": 1.0587139342659215
+  },
+  "BEST 0.001": {
+   "synth_run": 14797020644640000,
+   "PG_run": 14793520048320000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^4_{13,5,5} x (20-to-4)_{27,13,15}"
+   },
+   "gain hybrid": 1.0002366303833412,
+   "gain PG": 1.0002366303833412
+  },
+  "matched 0.0001": {
+   "synth": 2676.4285714285716,
+   "PG": 2545.8517520215632,
+   "no rotations": 2490.4285714285716,
+   "rotation share (synth)": 0.06949559647718175,
+   "gain PG": 1.0512900326200543,
+   "gain bound": 1.0746859404577525
+  },
+  "BEST 0.0001": {
+   "synth_run": 498595260852000,
+   "PG_run": 498477305976000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0002366303833412,
+   "gain PG": 1.0002366303833412
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 32,
+  "N": 1024,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 8.256498922801369e-09,
+  "R": 2,
+  "b": 28,
+  "n3": 2067,
+  "t": 0,
+  "T_rot_synth": 206,
+  "T_per_rot_synth": 103.0,
+  "toffoli_per_rot_PG": 26,
+  "one_time": {
+   "logical_qubits": 56,
+   "gradient_state_rotations": 28
+  },
+  "T4": {
+   "synth": 8474,
+   "PG": 8476
+  },
+  "matched 0.001": {
+   "synth": 3373.9021739130435,
+   "PG": 3247.5978260869565,
+   "no rotations": 3167.9021739130435,
+   "rotation share (synth)": 0.06105689773485095,
+   "gain PG": 1.038891622235833,
+   "gain bound": 1.0650272605310742
+  },
+  "BEST 0.001": {
+   "synth_run": 204746346640600000,
+   "PG_run": 204794670064400000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9997640396413403
+  },
+  "matched 0.0001": {
+   "synth": 2696.4285714285716,
+   "PG": 2553.0808625336927,
+   "no rotations": 2490.4285714285716,
+   "rotation share (synth)": 0.07639735099337748,
+   "gain PG": 1.0561469520995195,
+   "gain bound": 1.0827166867435323
+  },
+  "BEST 0.0001": {
+   "synth_run": 9227015325150000.0,
+   "PG_run": 9010159204605000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.024067956583294,
+   "gain PG": 1.024067956583294
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 64,
+  "N": 4096,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 2.064124730700342e-08,
+  "R": 2,
+  "b": 27,
+  "n3": 8215,
+  "t": 0,
+  "T_rot_synth": 194,
+  "T_per_rot_synth": 97.0,
+  "toffoli_per_rot_PG": 25,
+  "one_time": {
+   "logical_qubits": 54,
+   "gradient_state_rotations": 27
+  },
+  "T4": {
+   "synth": 33054,
+   "PG": 33060
+  },
+  "matched 0.001": {
+   "synth": 12784.380434782608,
+   "PG": 12667.010869565216,
+   "no rotations": 12590.380434782608,
+   "rotation share (synth)": 0.01517476744294796,
+   "gain PG": 1.0092657665195026,
+   "gain bound": 1.0154085892006923
+  },
+  "BEST 0.001": {
+   "synth_run": 319456490057040000,
+   "PG_run": 319514478165600000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9998185117967332
+  },
+  "matched 0.0001": {
+   "synth": 10091.857142857143,
+   "PG": 9958.099730458222,
+   "no rotations": 9897.857142857143,
+   "rotation share (synth)": 0.01922341916396529,
+   "gain PG": 1.013432021773171,
+   "gain bound": 1.0196002020639388
+  },
+  "BEST 0.0001": {
+   "synth_run": 1.4137318227216e+16,
+   "PG_run": 1.405737910827e+16,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.005686630369026,
+   "gain PG": 1.005686630369026
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "swap",
+  "L": 64,
+  "N": 4096,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 2.0641247307003423e-09,
+  "R": 2,
+  "b": 30,
+  "n3": 8215,
+  "t": 0,
+  "T_rot_synth": 230,
+  "T_per_rot_synth": 115.0,
+  "toffoli_per_rot_PG": 28,
+  "one_time": {
+   "logical_qubits": 60,
+   "gradient_state_rotations": 30
+  },
+  "T4": {
+   "synth": 33090,
+   "PG": 33084
+  },
+  "matched 0.001": {
+   "synth": 12820.380434782608,
+   "PG": 12676.20652173913,
+   "no rotations": 12590.380434782608,
+   "rotation share (synth)": 0.01794018525191293,
+   "gain PG": 1.0113735850545056,
+   "gain bound": 1.0182679150317486
+  },
+  "BEST 0.001": {
+   "synth_run": 4797066028480200000,
+   "PG_run": 4796196206897520000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{13,5,5} x (15-to-1)_{29,11,13}"
+   },
+   "gain hybrid": 1.0001813565469713,
+   "gain PG": 1.0001813565469713
+  },
+  "matched 0.0001": {
+   "synth": 10127.857142857143,
+   "PG": 9965.328840970351,
+   "no rotations": 9897.857142857143,
+   "rotation share (synth)": 0.022709641018407504,
+   "gain PG": 1.0163093766879614,
+   "gain bound": 1.0232373529624017
+  },
+  "BEST 0.0001": {
+   "synth_run": 1.4167932464238e+17,
+   "PG_run": 1.40675833627506e+17,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0071333575142063,
+   "gain PG": 1.0071333575142063
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 8,
+  "N": 64,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0009021097956087902,
+  "R": 4,
+  "b": 11,
+  "n3": 142,
+  "t": 8,
+  "T_rot_synth": 124,
+  "T_per_rot_synth": 31.0,
+  "toffoli_per_rot_PG": 9,
+  "one_time": {
+   "logical_qubits": 22,
+   "gradient_state_rotations": 11
+  },
+  "T4": {
+   "synth": 700,
+   "PG": 720
+  },
+  "matched 0.001": {
+   "synth": 349.6304347826087,
+   "PG": 280.80434782608694,
+   "no rotations": 225.6304347826087,
+   "rotation share (synth)": 0.3546602002114034,
+   "gain PG": 1.2451033521715569,
+   "gain bound": 1.5495712496386935
+  },
+  "BEST 0.001": {
+   "synth_run": 13252736640000,
+   "PG_run": 11596144560000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1428571428571428,
+   "gain PG": 1.1428571428571428
+  },
+  "matched 0.0001": {
+   "synth": 303.088948787062,
+   "PG": 222.46361185983827,
+   "no rotations": 179.088948787062,
+   "rotation share (synth)": 0.40912082243921527,
+   "gain PG": 1.3624203358615845,
+   "gain bound": 1.692393365642214
+  },
+  "BEST 0.0001": {
+   "synth_run": 327387060000,
+   "PG_run": 336740976000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9722222222222222
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 8,
+  "N": 64,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.000285272165367274,
+  "R": 4,
+  "b": 13,
+  "n3": 142,
+  "t": 8,
+  "T_rot_synth": 156,
+  "T_per_rot_synth": 39.0,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 732,
+   "PG": 752
+  },
+  "matched 0.001": {
+   "synth": 381.6304347826087,
+   "PG": 293.0652173913043,
+   "no rotations": 225.6304347826087,
+   "rotation share (synth)": 0.4087724295072629,
+   "gain PG": 1.3022031006601886,
+   "gain bound": 1.6913960882551307
+  },
+  "BEST 0.001": {
+   "synth_run": 142721147520000,
+   "PG_run": 121058116200000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1789473684210525,
+   "gain PG": 1.1789473684210525
+  },
+  "matched 0.0001": {
+   "synth": 335.088948787062,
+   "PG": 232.10242587601078,
+   "no rotations": 179.088948787062,
+   "rotation share (synth)": 0.4655480300519635,
+   "gain PG": 1.4437115317617002,
+   "gain bound": 1.8710755245176243
+  },
+  "BEST 0.0001": {
+   "synth_run": 3423518103600,
+   "PG_run": 3517056849600,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.973404255319149
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 10,
+  "N": 100,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00036084391824351607,
+  "R": 8,
+  "b": 13,
+  "n3": 246,
+  "t": 8,
+  "T_rot_synth": 284,
+  "T_per_rot_synth": 35.5,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 1276,
+   "PG": 1344
+  },
+  "matched 0.001": {
+   "synth": 669.0217391304348,
+   "PG": 519.891304347826,
+   "no rotations": 385.02173913043475,
+   "rotation share (synth)": 0.42450040617384244,
+   "gain PG": 1.2868492577879993,
+   "gain bound": 1.737620687708204
+  },
+  "BEST 0.001": {
+   "synth_run": 39025348320000,
+   "PG_run": 33649407480000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1597633136094674,
+   "gain PG": 1.1597633136094674
+  },
+  "matched 0.0001": {
+   "synth": 588.3935309973047,
+   "PG": 410.42048517520215,
+   "no rotations": 304.3935309973046,
+   "rotation share (synth)": 0.48267016042584765,
+   "gain PG": 1.4336358740624962,
+   "gain bound": 1.9330027450633136
+  },
+  "BEST 0.0001": {
+   "synth_run": 932465199600,
+   "PG_run": 982157702400,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9494047619047619
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 10,
+  "N": 100,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.0001141088661469096,
+  "R": 8,
+  "b": 14,
+  "n3": 246,
+  "t": 8,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 41.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 1320,
+   "PG": 1376
+  },
+  "matched 0.001": {
+   "synth": 713.0217391304348,
+   "PG": 532.1521739130435,
+   "no rotations": 385.02173913043475,
+   "rotation share (synth)": 0.4600140248178298,
+   "gain PG": 1.3398831651619754,
+   "gain bound": 1.8518999491841228
+  },
+  "BEST 0.001": {
+   "synth_run": 412154296920000,
+   "PG_run": 344457455880000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1965317919075145,
+   "gain PG": 1.1965317919075145
+  },
+  "matched 0.0001": {
+   "synth": 632.3935309973047,
+   "PG": 420.0592991913747,
+   "no rotations": 304.3935309973046,
+   "rotation share (synth)": 0.51866438210197,
+   "gain PG": 1.5054863258941749,
+   "gain bound": 2.0775524661294607
+  },
+  "BEST 0.0001": {
+   "synth_run": 28891893360000,
+   "PG_run": 30117610048000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9593023255813954
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 16,
+  "N": 256,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0004510548978043951,
+  "R": 4,
+  "b": 12,
+  "n3": 530,
+  "t": 8,
+  "T_rot_synth": 136,
+  "T_per_rot_synth": 34.0,
+  "toffoli_per_rot_PG": 10,
+  "one_time": {
+   "logical_qubits": 24,
+   "gradient_state_rotations": 12
+  },
+  "T4": {
+   "synth": 2264,
+   "PG": 2288
+  },
+  "matched 0.001": {
+   "synth": 956.2826086956521,
+   "PG": 881.5869565217391,
+   "no rotations": 820.2826086956521,
+   "rotation share (synth)": 0.14221737252494943,
+   "gain PG": 1.0847286267353833,
+   "gain bound": 1.1657965176370817
+  },
+  "BEST 0.001": {
+   "synth_run": 153425912640000,
+   "PG_run": 146289823680000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.048780487804878,
+   "gain PG": 1.048780487804878
+  },
+  "matched 0.0001": {
+   "synth": 782.5714285714286,
+   "PG": 694.7654986522912,
+   "no rotations": 646.5714285714286,
+   "rotation share (synth)": 0.1737860533041256,
+   "gain PG": 1.1263821103515699,
+   "gain bound": 1.210340256296951
+  },
+  "BEST 0.0001": {
+   "synth_run": 4235453164800,
+   "PG_run": 4280351961600,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9895104895104895
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 16,
+  "N": 256,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.000142636082683637,
+  "R": 4,
+  "b": 14,
+  "n3": 530,
+  "t": 8,
+  "T_rot_synth": 172,
+  "T_per_rot_synth": 43.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 2300,
+   "PG": 2320
+  },
+  "matched 0.001": {
+   "synth": 992.2826086956521,
+   "PG": 893.8478260869565,
+   "no rotations": 820.2826086956521,
+   "rotation share (synth)": 0.17333771497425787,
+   "gain PG": 1.1101247659119098,
+   "gain bound": 1.2096838311292504
+  },
+  "BEST 0.001": {
+   "synth_run": 1580123493600000,
+   "PG_run": 1483277214960000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0652920962199313,
+   "gain PG": 1.0652920962199313
+  },
+  "matched 0.0001": {
+   "synth": 818.5714285714286,
+   "PG": 704.4043126684636,
+   "no rotations": 646.5714285714286,
+   "rotation share (synth)": 0.21012216404886563,
+   "gain PG": 1.1620761171527623,
+   "gain bound": 1.2660185594343791
+  },
+  "BEST 0.0001": {
+   "synth_run": 128875320400000,
+   "PG_run": 129995975360000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9913793103448276
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 20,
+  "N": 400,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00018042195912175803,
+  "R": 8,
+  "b": 14,
+  "n3": 850,
+  "t": 8,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 41.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 3736,
+   "PG": 3792
+  },
+  "matched 0.001": {
+   "synth": 1638.7173913043478,
+   "PG": 1457.8478260869565,
+   "no rotations": 1310.7173913043478,
+   "rotation share (synth)": 0.20015653811968534,
+   "gain PG": 1.1240661487302606,
+   "gain bound": 1.2502446386811072
+  },
+  "BEST 0.001": {
+   "synth_run": 405385761120000,
+   "PG_run": 378306948000000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.071578947368421,
+   "gain PG": 1.071578947368421
+  },
+  "matched 0.0001": {
+   "synth": 1360.123989218329,
+   "PG": 1147.789757412399,
+   "no rotations": 1032.123989218329,
+   "rotation share (synth)": 0.2411544848852372,
+   "gain PG": 1.1849940116948077,
+   "gain bound": 1.317791276461279
+  },
+  "BEST 0.0001": {
+   "synth_run": 32709217984000,
+   "PG_run": 33199506048000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9852320675105485
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 20,
+  "N": 400,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 5.70544330734548e-05,
+  "R": 8,
+  "b": 15,
+  "n3": 850,
+  "t": 8,
+  "T_rot_synth": 348,
+  "T_per_rot_synth": 43.5,
+  "toffoli_per_rot_PG": 13,
+  "one_time": {
+   "logical_qubits": 30,
+   "gradient_state_rotations": 15
+  },
+  "T4": {
+   "synth": 3756,
+   "PG": 3824
+  },
+  "matched 0.001": {
+   "synth": 1658.7173913043478,
+   "PG": 1470.1086956521738,
+   "no rotations": 1310.7173913043478,
+   "rotation share (synth)": 0.20980065792060393,
+   "gain PG": 1.1282957486136784,
+   "gain bound": 1.2655034581128821
+  },
+  "BEST 0.001": {
+   "synth_run": 4093667799360000.0,
+   "PG_run": 3814916100960000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0730688935281838,
+   "gain PG": 1.0730688935281838
+  },
+  "matched 0.0001": {
+   "synth": 1380.123989218329,
+   "PG": 1157.4285714285716,
+   "no rotations": 1032.123989218329,
+   "rotation share (synth)": 0.2521512579439325,
+   "gain PG": 1.1924053227015923,
+   "gain bound": 1.337168793318674
+  },
+  "BEST 0.0001": {
+   "synth_run": 328842277152000,
+   "PG_run": 334795758208000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9822175732217573
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 30,
+  "N": 900,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00012028130608117203,
+  "R": 8,
+  "b": 14,
+  "n3": 1868,
+  "t": 8,
+  "T_rot_synth": 320,
+  "T_per_rot_synth": 40.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 7800,
+   "PG": 7864
+  },
+  "matched 0.001": {
+   "synth": 3190.9130434782605,
+   "PG": 3018.0434782608695,
+   "no rotations": 2870.9130434782605,
+   "rotation share (synth)": 0.10028477606245999,
+   "gain PG": 1.057278686162933,
+   "gain bound": 1.111462797776802
+  },
+  "BEST 0.001": {
+   "synth_run": 1820646234240000,
+   "PG_run": 1763303045760000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.032520325203252,
+   "gain PG": 1.032520325203252
+  },
+  "matched 0.0001": {
+   "synth": 2578.6630727762804,
+   "PG": 2374.3288409703505,
+   "no rotations": 2258.6630727762804,
+   "rotation share (synth)": 0.12409531255879684,
+   "gain PG": 1.0860597859403593,
+   "gain bound": 1.1416767307426094
+  },
+  "BEST 0.0001": {
+   "synth_run": 153652293600000,
+   "PG_run": 154913030368000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9918616480162767
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 30,
+  "N": 900,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 3.8036288715636535e-05,
+  "R": 8,
+  "b": 16,
+  "n3": 1868,
+  "t": 8,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 41.0,
+  "toffoli_per_rot_PG": 14,
+  "one_time": {
+   "logical_qubits": 32,
+   "gradient_state_rotations": 16
+  },
+  "T4": {
+   "synth": 7808,
+   "PG": 7928
+  },
+  "matched 0.001": {
+   "synth": 3198.9130434782605,
+   "PG": 3042.565217391304,
+   "no rotations": 2870.9130434782605,
+   "rotation share (synth)": 0.10253482840638806,
+   "gain PG": 1.051386844624816,
+   "gain bound": 1.114249367721222
+  },
+  "BEST 0.001": {
+   "synth_run": 63012437043200000,
+   "PG_run": 63980865891200000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9848637739656912
+  },
+  "matched 0.0001": {
+   "synth": 2586.6630727762804,
+   "PG": 2393.6064690026956,
+   "no rotations": 2258.6630727762804,
+   "rotation share (synth)": 0.1268042998920442,
+   "gain PG": 1.0806551144783723,
+   "gain bound": 1.1452186490111746
+  },
+  "BEST 0.0001": {
+   "synth_run": 2891598907920000.0,
+   "PG_run": 2817746676480000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0262096774193548,
+   "gain PG": 1.0262096774193548
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 32,
+  "N": 1024,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00022552744890219756,
+  "R": 4,
+  "b": 13,
+  "n3": 2070,
+  "t": 8,
+  "T_rot_synth": 156,
+  "T_per_rot_synth": 39.0,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 8444,
+   "PG": 8464
+  },
+  "matched 0.001": {
+   "synth": 3336.5,
+   "PG": 3247.9347826086955,
+   "no rotations": 3180.5,
+   "rotation share (synth)": 0.046755582196912934,
+   "gain PG": 1.0272681637160739,
+   "gain bound": 1.0490488916836975
+  },
+  "BEST 0.001": {
+   "synth_run": 2193825497280000.0,
+   "PG_run": 2159164685520000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.016052880075543,
+   "gain PG": 1.016052880075543
+  },
+  "matched 0.0001": {
+   "synth": 2658.0431266846363,
+   "PG": 2555.056603773585,
+   "no rotations": 2502.0431266846363,
+   "rotation share (synth)": 0.05868979266509419,
+   "gain PG": 1.040306943790971,
+   "gain bound": 1.0623490452007955
+  },
+  "BEST 0.0001": {
+   "synth_run": 189256419056000,
+   "PG_run": 189704681536000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9976370510396976
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 32,
+  "N": 1024,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 7.13180413418185e-05,
+  "R": 4,
+  "b": 15,
+  "n3": 2070,
+  "t": 8,
+  "T_rot_synth": 172,
+  "T_per_rot_synth": 43.0,
+  "toffoli_per_rot_PG": 13,
+  "one_time": {
+   "logical_qubits": 30,
+   "gradient_state_rotations": 15
+  },
+  "T4": {
+   "synth": 8460,
+   "PG": 8496
+  },
+  "matched 0.001": {
+   "synth": 3352.5,
+   "PG": 3260.195652173913,
+   "no rotations": 3180.5,
+   "rotation share (synth)": 0.051304996271439224,
+   "gain PG": 1.0283125179203703,
+   "gain bound": 1.0540795472409998
+  },
+  "BEST 0.001": {
+   "synth_run": 77680888326000000,
+   "PG_run": 78011445297600000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9957627118644068
+  },
+  "matched 0.0001": {
+   "synth": 2674.0431266846363,
+   "PG": 2564.6954177897574,
+   "no rotations": 2502.0431266846363,
+   "rotation share (synth)": 0.06432207404719424,
+   "gain PG": 1.0426357485323205,
+   "gain bound": 1.0687438190675438
+  },
+  "BEST 0.0001": {
+   "synth_run": 3490369282800000.0,
+   "PG_run": 3435428284830000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0159924741298212,
+   "gain PG": 1.0159924741298212
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 64,
+  "N": 4096,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00011276372445109878,
+  "R": 4,
+  "b": 14,
+  "n3": 8218,
+  "t": 8,
+  "T_rot_synth": 172,
+  "T_per_rot_synth": 43.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 33052,
+   "PG": 33072
+  },
+  "matched 0.001": {
+   "synth": 12774.978260869564,
+   "PG": 12676.543478260868,
+   "no rotations": 12602.978260869564,
+   "rotation share (synth)": 0.013463819388784803,
+   "gain PG": 1.007765112215132,
+   "gain bound": 1.0136475677764227
+  },
+  "BEST 0.001": {
+   "synth_run": 121395211392480000,
+   "PG_run": 121468668497280000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9993952588292211
+  },
+  "matched 0.0001": {
+   "synth": 10081.471698113208,
+   "PG": 9967.304582210243,
+   "no rotations": 9909.471698113208,
+   "rotation share (synth)": 0.017061001126669886,
+   "gain PG": 1.0114541614496995,
+   "gain bound": 1.0173571311609628
+  },
+  "BEST 0.0001": {
+   "synth_run": 5369997778056000.0,
+   "PG_run": 5345435920140000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0045949214026602,
+   "gain PG": 1.0045949214026602
+  }
+ },
+ {
+  "lattice": "square J1-J2 0.5",
+  "method": "triangle",
+  "L": 64,
+  "N": 4096,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 3.565902067090925e-05,
+  "R": 4,
+  "b": 16,
+  "n3": 8218,
+  "t": 8,
+  "T_rot_synth": 180,
+  "T_per_rot_synth": 45.0,
+  "toffoli_per_rot_PG": 14,
+  "one_time": {
+   "logical_qubits": 32,
+   "gradient_state_rotations": 16
+  },
+  "T4": {
+   "synth": 33060,
+   "PG": 33104
+  },
+  "matched 0.001": {
+   "synth": 12782.978260869564,
+   "PG": 12688.804347826086,
+   "no rotations": 12602.978260869564,
+   "rotation share (synth)": 0.014081225542798934,
+   "gain PG": 1.0074218114222568,
+   "gain bound": 1.014282338370675
+  },
+  "BEST 0.001": {
+   "synth_run": 1821368787557400000,
+   "PG_run": 1823792871848160000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{13,5,5} x (15-to-1)_{29,11,13}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9986708554857419
+  },
+  "matched 0.0001": {
+   "synth": 10089.471698113208,
+   "PG": 9976.943396226416,
+   "no rotations": 9909.471698113208,
+   "rotation share (synth)": 0.017840379098705544,
+   "gain PG": 1.0112788353524542,
+   "gain bound": 1.0181644395870542
+  },
+  "BEST 0.0001": {
+   "synth_run": 5.3725828652376e+16,
+   "PG_run": 5.3506064675694e+16,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0041072722879922,
+   "gain PG": 1.0041072722879922
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 4,
+  "N": 48,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 1.3045446959946123e-06,
+  "R": 4,
+  "b": 21,
+  "n3": 113,
+  "t": 0,
+  "T_rot_synth": 260,
+  "T_per_rot_synth": 65.0,
+  "toffoli_per_rot_PG": 19,
+  "one_time": {
+   "logical_qubits": 42,
+   "gradient_state_rotations": 21
+  },
+  "T4": {
+   "synth": 712,
+   "PG": 756
+  },
+  "matched 0.001": {
+   "synth": 433.1847826086956,
+   "PG": 289.6630434782609,
+   "no rotations": 173.18478260869566,
+   "rotation share (synth)": 0.6002057561538655,
+   "gain PG": 1.4954782543435026,
+   "gain bound": 2.5012866377957694
+  },
+  "BEST 0.001": {
+   "synth_run": 20628381780000,
+   "PG_run": 16044296940000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.2857142857142858,
+   "gain PG": 1.2857142857142858
+  },
+  "matched 0.0001": {
+   "synth": 396.14824797843664,
+   "PG": 227.7169811320755,
+   "no rotations": 136.14824797843667,
+   "rotation share (synth)": 0.6563199542766941,
+   "gain PG": 1.7396517642602651,
+   "gain bound": 2.9096830393379656
+  },
+  "BEST 0.0001": {
+   "synth_run": 443670055200,
+   "PG_run": 471087867600,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9417989417989417
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 4,
+  "N": 48,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 1.3045446959946125e-07,
+  "R": 4,
+  "b": 24,
+  "n3": 113,
+  "t": 0,
+  "T_rot_synth": 364,
+  "T_per_rot_synth": 91.0,
+  "toffoli_per_rot_PG": 22,
+  "one_time": {
+   "logical_qubits": 48,
+   "gradient_state_rotations": 24
+  },
+  "T4": {
+   "synth": 816,
+   "PG": 804
+  },
+  "matched 0.001": {
+   "synth": 537.1847826086956,
+   "PG": 308.05434782608694,
+   "no rotations": 173.18478260869566,
+   "rotation share (synth)": 0.6776066854171304,
+   "gain PG": 1.743798736812392,
+   "gain bound": 3.1018012929140775
+  },
+  "BEST 0.001": {
+   "synth_run": 250421865600000,
+   "PG_run": 170626423680000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.4676616915422886,
+   "gain PG": 1.4676616915422886
+  },
+  "matched 0.0001": {
+   "synth": 500.14824797843664,
+   "PG": 242.17520215633422,
+   "no rotations": 136.14824797843667,
+   "rotation share (synth)": 0.7277842149227992,
+   "gain PG": 2.0652331185237127,
+   "gain bound": 3.673556255073152
+  },
+  "BEST 0.0001": {
+   "synth_run": 15229406208000,
+   "PG_run": 5009882227200,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 3.039873098276732,
+   "gain PG": 3.039873098276732
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 6,
+  "N": 108,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 5.797976426642722e-07,
+  "R": 4,
+  "b": 22,
+  "n3": 255,
+  "t": 0,
+  "T_rot_synth": 268,
+  "T_per_rot_synth": 67.0,
+  "toffoli_per_rot_PG": 20,
+  "one_time": {
+   "logical_qubits": 44,
+   "gradient_state_rotations": 22
+  },
+  "T4": {
+   "synth": 1288,
+   "PG": 1340
+  },
+  "matched 0.001": {
+   "synth": 658.8152173913043,
+   "PG": 513.4239130434783,
+   "no rotations": 390.8152173913043,
+   "rotation share (synth)": 0.40679084654600656,
+   "gain PG": 1.283179845453583,
+   "gain bound": 1.6857460714782366
+  },
+  "BEST 0.001": {
+   "synth_run": 74299552380000,
+   "PG_run": 63985475700000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1611940298507464,
+   "gain PG": 1.1611940298507464
+  },
+  "matched 0.0001": {
+   "synth": 575.2371967654987,
+   "PG": 403.6253369272237,
+   "no rotations": 307.23719676549865,
+   "rotation share (synth)": 0.46589476742279057,
+   "gain PG": 1.4251761327590238,
+   "gain bound": 1.8722902136245998
+  },
+  "BEST 0.0001": {
+   "synth_run": 1805816829600,
+   "PG_run": 1878722478000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9611940298507463
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 6,
+  "N": 108,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 5.797976426642722e-08,
+  "R": 4,
+  "b": 25,
+  "n3": 255,
+  "t": 0,
+  "T_rot_synth": 284,
+  "T_per_rot_synth": 71.0,
+  "toffoli_per_rot_PG": 23,
+  "one_time": {
+   "logical_qubits": 50,
+   "gradient_state_rotations": 25
+  },
+  "T4": {
+   "synth": 1304,
+   "PG": 1388
+  },
+  "matched 0.001": {
+   "synth": 674.8152173913043,
+   "PG": 531.8152173913044,
+   "no rotations": 390.8152173913043,
+   "rotation share (synth)": 0.42085595090443445,
+   "gain PG": 1.2688903877204813,
+   "gain bound": 1.7266861354470866
+  },
+  "BEST 0.001": {
+   "synth_run": 758268920160000,
+   "PG_run": 662769056160000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.144092219020173,
+   "gain PG": 1.144092219020173
+  },
+  "matched 0.0001": {
+   "synth": 591.2371967654987,
+   "PG": 418.0835579514825,
+   "no rotations": 307.23719676549865,
+   "rotation share (synth)": 0.480348668104254,
+   "gain PG": 1.4141603646467968,
+   "gain bound": 1.9243672413036803
+  },
+  "BEST 0.0001": {
+   "synth_run": 54758673792000,
+   "PG_run": 58286073024000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9394812680115274
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 8,
+  "N": 192,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 3.261361739986531e-07,
+  "R": 4,
+  "b": 23,
+  "n3": 405,
+  "t": 0,
+  "T_rot_synth": 328,
+  "T_per_rot_synth": 82.0,
+  "toffoli_per_rot_PG": 21,
+  "one_time": {
+   "logical_qubits": 46,
+   "gradient_state_rotations": 23
+  },
+  "T4": {
+   "synth": 1948,
+   "PG": 1956
+  },
+  "matched 0.001": {
+   "synth": 948.7065217391304,
+   "PG": 749.445652173913,
+   "no rotations": 620.7065217391304,
+   "rotation share (synth)": 0.34573389397463367,
+   "gain PG": 1.26587767770381,
+   "gain bound": 1.528430084931267
+  },
+  "BEST 0.001": {
+   "synth_run": 193207477800000,
+   "PG_run": 166042981800000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.16359918200409,
+   "gain PG": 1.16359918200409
+  },
+  "matched 0.0001": {
+   "synth": 815.9649595687331,
+   "PG": 589.1725067385445,
+   "no rotations": 487.96495956873315,
+   "rotation share (synth)": 0.40197804593638414,
+   "gain PG": 1.3849338695140976,
+   "gain bound": 1.6721794128207252
+  },
+  "BEST 0.0001": {
+   "synth_run": 4855364676000,
+   "PG_run": 4875304572000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9959100204498977
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 8,
+  "N": 192,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 3.261361739986531e-08,
+  "R": 4,
+  "b": 26,
+  "n3": 405,
+  "t": 0,
+  "T_rot_synth": 388,
+  "T_per_rot_synth": 97.0,
+  "toffoli_per_rot_PG": 24,
+  "one_time": {
+   "logical_qubits": 52,
+   "gradient_state_rotations": 26
+  },
+  "T4": {
+   "synth": 2008,
+   "PG": 2004
+  },
+  "matched 0.001": {
+   "synth": 1008.7065217391304,
+   "PG": 767.8369565217391,
+   "no rotations": 620.7065217391304,
+   "rotation share (synth)": 0.38465102746737645,
+   "gain PG": 1.313698843447856,
+   "gain bound": 1.6250941248577182
+  },
+  "BEST 0.001": {
+   "synth_run": 2033934881280000.0,
+   "PG_run": 1701170910720000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1956087824351298,
+   "gain PG": 1.1956087824351298
+  },
+  "matched 0.0001": {
+   "synth": 875.9649595687331,
+   "PG": 603.6307277628032,
+   "no rotations": 487.96495956873315,
+   "rotation share (synth)": 0.4429400922509793,
+   "gain PG": 1.4511603191826639,
+   "gain bound": 1.7951390615074432
+  },
+  "BEST 0.0001": {
+   "synth_run": 149905135616000,
+   "PG_run": 149606519808000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.001996007984032,
+   "gain PG": 1.001996007984032
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 10,
+  "N": 300,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 2.08727151359138e-07,
+  "R": 4,
+  "b": 23,
+  "n3": 655,
+  "t": 0,
+  "T_rot_synth": 284,
+  "T_per_rot_synth": 71.0,
+  "toffoli_per_rot_PG": 21,
+  "one_time": {
+   "logical_qubits": 46,
+   "gradient_state_rotations": 23
+  },
+  "T4": {
+   "synth": 2904,
+   "PG": 2956
+  },
+  "matched 0.001": {
+   "synth": 1287.858695652174,
+   "PG": 1132.5978260869565,
+   "no rotations": 1003.8586956521739,
+   "rotation share (synth)": 0.2205210874133842,
+   "gain PG": 1.1370838491732167,
+   "gain bound": 1.2829083428076444
+  },
+  "BEST 0.001": {
+   "synth_run": 422852175600000,
+   "PG_run": 392079997200000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0784844384303112,
+   "gain PG": 1.0784844384303112
+  },
+  "matched 0.0001": {
+   "synth": 1073.177897574124,
+   "PG": 890.3854447439353,
+   "no rotations": 789.177897574124,
+   "rotation share (synth)": 0.2646345965957468,
+   "gain PG": 1.2052958681088477,
+   "gain bound": 1.3598681626449443
+  },
+  "BEST 0.0001": {
+   "synth_run": 33874230720000,
+   "PG_run": 34480794080000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9824086603518268
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 10,
+  "N": 300,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 2.08727151359138e-08,
+  "R": 4,
+  "b": 27,
+  "n3": 655,
+  "t": 0,
+  "T_rot_synth": 324,
+  "T_per_rot_synth": 81.0,
+  "toffoli_per_rot_PG": 25,
+  "one_time": {
+   "logical_qubits": 54,
+   "gradient_state_rotations": 27
+  },
+  "T4": {
+   "synth": 2944,
+   "PG": 3020
+  },
+  "matched 0.001": {
+   "synth": 1327.858695652174,
+   "PG": 1157.1195652173913,
+   "no rotations": 1003.8586956521739,
+   "rotation share (synth)": 0.24400186635888116,
+   "gain PG": 1.1475553050584755,
+   "gain bound": 1.32275458827351
+  },
+  "BEST 0.001": {
+   "synth_run": 4334632716000000.0,
+   "PG_run": 4005688740000000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0821192052980133,
+   "gain PG": 1.0821192052980133
+  },
+  "matched 0.0001": {
+   "synth": 1113.177897574124,
+   "PG": 909.6630727762804,
+   "no rotations": 789.177897574124,
+   "rotation share (synth)": 0.2910585996237188,
+   "gain PG": 1.2237254989110626,
+   "gain bound": 1.4105538193554998
+  },
+  "BEST 0.0001": {
+   "synth_run": 343408179200000,
+   "PG_run": 352273336000000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9748344370860927
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 16,
+  "N": 768,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 8.153404349966327e-08,
+  "R": 4,
+  "b": 25,
+  "n3": 1561,
+  "t": 0,
+  "T_rot_synth": 372,
+  "T_per_rot_synth": 93.0,
+  "toffoli_per_rot_PG": 23,
+  "one_time": {
+   "logical_qubits": 50,
+   "gradient_state_rotations": 25
+  },
+  "T4": {
+   "synth": 6616,
+   "PG": 6612
+  },
+  "matched 0.001": {
+   "synth": 2764.4021739130435,
+   "PG": 2533.4021739130435,
+   "no rotations": 2392.4021739130435,
+   "rotation share (synth)": 0.1345679740489531,
+   "gain PG": 1.0911817327618385,
+   "gain bound": 1.1554922512846375
+  },
+  "BEST 0.001": {
+   "synth_run": 2372813799060000.0,
+   "PG_run": 2245140932940000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0568663036902601,
+   "gain PG": 1.0568663036902601
+  },
+  "matched 0.0001": {
+   "synth": 2252.7735849056603,
+   "PG": 1991.6199460916441,
+   "no rotations": 1880.7735849056603,
+   "rotation share (synth)": 0.16512977713007865,
+   "gain PG": 1.131126241894948,
+   "gain bound": 1.1977909531405182
+  },
+  "BEST 0.0001": {
+   "synth_run": 197564464688000,
+   "PG_run": 197445018216000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.000604960677556,
+   "gain PG": 1.000604960677556
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 16,
+  "N": 768,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 8.153404349966328e-09,
+  "R": 4,
+  "b": 28,
+  "n3": 1561,
+  "t": 0,
+  "T_rot_synth": 412,
+  "T_per_rot_synth": 103.0,
+  "toffoli_per_rot_PG": 26,
+  "one_time": {
+   "logical_qubits": 56,
+   "gradient_state_rotations": 28
+  },
+  "T4": {
+   "synth": 6656,
+   "PG": 6660
+  },
+  "matched 0.001": {
+   "synth": 2804.4021739130435,
+   "PG": 2551.7934782608695,
+   "no rotations": 2392.4021739130435,
+   "rotation share (synth)": 0.1469118815526831,
+   "gain PG": 1.0989926096309075,
+   "gain bound": 1.1722118481969641
+  },
+  "BEST 0.001": {
+   "synth_run": 81426910023680000,
+   "PG_run": 81475844464800000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9993993993993994
+  },
+  "matched 0.0001": {
+   "synth": 2292.7735849056603,
+   "PG": 2006.078167115903,
+   "no rotations": 1880.7735849056603,
+   "rotation share (synth)": 0.17969502209567387,
+   "gain PG": 1.1429133831818394,
+   "gain bound": 1.21905879756423
+  },
+  "BEST 0.0001": {
+   "synth_run": 3804214506318000.0,
+   "PG_run": 3584616385410000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0612612612612613,
+   "gain PG": 1.0612612612612613
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 18,
+  "N": 972,
+  "eps": 0.01,
+  "rule": "B",
+  "eps_r": 6.442196029603024e-08,
+  "R": 4,
+  "b": 25,
+  "n3": 2009,
+  "t": 0,
+  "T_rot_synth": 284,
+  "T_per_rot_synth": 71.0,
+  "toffoli_per_rot_PG": 23,
+  "one_time": {
+   "logical_qubits": 50,
+   "gradient_state_rotations": 25
+  },
+  "T4": {
+   "synth": 8320,
+   "PG": 8404
+  },
+  "matched 0.001": {
+   "synth": 3363.010869565217,
+   "PG": 3220.010869565217,
+   "no rotations": 3079.010869565217,
+   "rotation share (synth)": 0.08444813621334403,
+   "gain PG": 1.0444097879766812,
+   "gain bound": 1.0922374139069224
+  },
+  "BEST 0.001": {
+   "synth_run": 3697566160680000.0,
+   "PG_run": 3611616226680000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0237981913374583,
+   "gain PG": 1.0237981913374583
+  },
+  "matched 0.0001": {
+   "synth": 2704.5471698113206,
+   "PG": 2531.3935309973044,
+   "no rotations": 2420.5471698113206,
+   "rotation share (synth)": 0.10500833676338243,
+   "gain PG": 1.0684024971596566,
+   "gain bound": 1.1173288434706015
+  },
+  "BEST 0.0001": {
+   "synth_run": 314442652160000,
+   "PG_run": 317617313552000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9900047596382675
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "swap",
+  "L": 18,
+  "N": 972,
+  "eps": 0.001,
+  "rule": "B",
+  "eps_r": 6.442196029603024e-09,
+  "R": 4,
+  "b": 28,
+  "n3": 2009,
+  "t": 0,
+  "T_rot_synth": 356,
+  "T_per_rot_synth": 89.0,
+  "toffoli_per_rot_PG": 26,
+  "one_time": {
+   "logical_qubits": 56,
+   "gradient_state_rotations": 28
+  },
+  "T4": {
+   "synth": 8392,
+   "PG": 8452
+  },
+  "matched 0.001": {
+   "synth": 3435.010869565217,
+   "PG": 3238.4021739130435,
+   "no rotations": 3079.010869565217,
+   "rotation share (synth)": 0.10363868223947144,
+   "gain PG": 1.0607116365088793,
+   "gain bound": 1.1156215470100859
+  },
+  "BEST 0.001": {
+   "synth_run": 129934715309120000,
+   "PG_run": 130863705170720000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^6_{11,5,5} x (15-to-1)_{25,11,11}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9929010884997633
+  },
+  "matched 0.0001": {
+   "synth": 2776.5471698113206,
+   "PG": 2545.8517520215632,
+   "no rotations": 2420.5471698113206,
+   "rotation share (synth)": 0.12821680246267592,
+   "gain PG": 1.0906162024582031,
+   "gain bound": 1.1470741840687821
+  },
+  "BEST 0.0001": {
+   "synth_run": 5959122505326000.0,
+   "PG_run": 5757487816074000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^4_{7,3,3} x (8-to-CCZ)_{15,7,9}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 1.0350212967345007,
+   "gain PG": 1.0350212967345007
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 4,
+  "N": 48,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0012757759076995718,
+  "R": 4,
+  "b": 11,
+  "n3": 110,
+  "t": 8,
+  "T_rot_synth": 112,
+  "T_per_rot_synth": 28.0,
+  "toffoli_per_rot_PG": 9,
+  "one_time": {
+   "logical_qubits": 22,
+   "gradient_state_rotations": 11
+  },
+  "T4": {
+   "synth": 560,
+   "PG": 592
+  },
+  "matched 0.001": {
+   "synth": 288.5869565217391,
+   "PG": 231.76086956521738,
+   "no rotations": 176.58695652173913,
+   "rotation share (synth)": 0.3880979284369115,
+   "gain PG": 1.2451927586530345,
+   "gain bound": 1.6342484303828635
+  },
+  "BEST 0.001": {
+   "synth_run": 798827120000,
+   "PG_run": 844474384000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{17,7,7}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9459459459459459
+  },
+  "matched 0.0001": {
+   "synth": 252.53369272237197,
+   "PG": 183.90835579514825,
+   "no rotations": 140.53369272237197,
+   "rotation share (synth)": 0.443505176646387,
+   "gain PG": 1.3731496409204162,
+   "gain bound": 1.796961908780544
+  },
+  "BEST 0.0001": {
+   "synth_run": 59202416000,
+   "PG_run": 62585411200,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{7,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9459459459459459
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 4,
+  "N": 48,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.00040343576522993926,
+  "R": 4,
+  "b": 12,
+  "n3": 110,
+  "t": 8,
+  "T_rot_synth": 136,
+  "T_per_rot_synth": 34.0,
+  "toffoli_per_rot_PG": 10,
+  "one_time": {
+   "logical_qubits": 24,
+   "gradient_state_rotations": 12
+  },
+  "T4": {
+   "synth": 584,
+   "PG": 608
+  },
+  "matched 0.001": {
+   "synth": 312.5869565217391,
+   "PG": 237.89130434782606,
+   "no rotations": 176.58695652173913,
+   "rotation share (synth)": 0.4350789345573406,
+   "gain PG": 1.3139906789728595,
+   "gain bound": 1.7701588083220485
+  },
+  "BEST 0.001": {
+   "synth_run": 37159602480000,
+   "PG_run": 31442740560000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1818181818181819,
+   "gain PG": 1.1818181818181819
+  },
+  "matched 0.0001": {
+   "synth": 276.53369272237194,
+   "PG": 188.7277628032345,
+   "no rotations": 140.53369272237197,
+   "rotation share (synth)": 0.4918026395305769,
+   "gain PG": 1.465251792396241,
+   "gain bound": 1.9677394606620888
+  },
+  "BEST 0.0001": {
+   "synth_run": 875253297600,
+   "PG_run": 911222611200,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9605263157894737
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 6,
+  "N": 108,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0004252586358998573,
+  "R": 8,
+  "b": 12,
+  "n3": 260,
+  "t": 8,
+  "T_rot_synth": 276,
+  "T_per_rot_synth": 34.5,
+  "toffoli_per_rot_PG": 10,
+  "one_time": {
+   "logical_qubits": 24,
+   "gradient_state_rotations": 12
+  },
+  "T4": {
+   "synth": 1324,
+   "PG": 1368
+  },
+  "matched 0.001": {
+   "synth": 682.4782608695652,
+   "PG": 529.0869565217391,
+   "no rotations": 406.4782608695652,
+   "rotation share (synth)": 0.40440848569790405,
+   "gain PG": 1.2899170022187527,
+   "gain bound": 1.679003101936036
+  },
+  "BEST 0.001": {
+   "synth_run": 18468129240000,
+   "PG_run": 15803573280000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.1686046511627908,
+   "gain PG": 1.1686046511627908
+  },
+  "matched 0.0001": {
+   "synth": 597.2614555256065,
+   "PG": 417.64959568733155,
+   "no rotations": 321.2614555256065,
+   "rotation share (synth)": 0.4621091775579464,
+   "gain PG": 1.4300539535844283,
+   "gain bound": 1.8591133335570695
+  },
+  "BEST 0.0001": {
+   "synth_run": 446484178800,
+   "PG_run": 461322021600,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9678362573099415
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 6,
+  "N": 108,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.00013447858840997975,
+  "R": 8,
+  "b": 14,
+  "n3": 260,
+  "t": 8,
+  "T_rot_synth": 336,
+  "T_per_rot_synth": 42.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 1384,
+   "PG": 1432
+  },
+  "matched 0.001": {
+   "synth": 742.4782608695652,
+   "PG": 553.6086956521739,
+   "no rotations": 406.4782608695652,
+   "rotation share (synth)": 0.45253850207881946,
+   "gain PG": 1.341160763370769,
+   "gain bound": 1.8266124719221308
+  },
+  "BEST 0.001": {
+   "synth_run": 198454950720000,
+   "PG_run": 165379125600000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.2,
+   "gain PG": 1.2
+  },
+  "matched 0.0001": {
+   "synth": 657.2614555256065,
+   "PG": 436.92722371967653,
+   "no rotations": 321.2614555256065,
+   "rotation share (synth)": 0.5112120864159052,
+   "gain PG": 1.5042813078346702,
+   "gain bound": 2.0458771017216497
+  },
+  "BEST 0.0001": {
+   "synth_run": 4666975466400,
+   "PG_run": 4828835887200,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9664804469273743
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 8,
+  "N": 192,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0006378879538497859,
+  "R": 4,
+  "b": 12,
+  "n3": 406,
+  "t": 8,
+  "T_rot_synth": 140,
+  "T_per_rot_synth": 35.0,
+  "toffoli_per_rot_PG": 10,
+  "one_time": {
+   "logical_qubits": 24,
+   "gradient_state_rotations": 12
+  },
+  "T4": {
+   "synth": 1772,
+   "PG": 1792
+  },
+  "matched 0.001": {
+   "synth": 770.2391304347826,
+   "PG": 691.5434782608695,
+   "no rotations": 630.2391304347826,
+   "rotation share (synth)": 0.18176173407468035,
+   "gain PG": 1.113797114205778,
+   "gain bound": 1.2221379048670278
+  },
+  "BEST 0.001": {
+   "synth_run": 39201609600000,
+   "PG_run": 36751509000000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0666666666666667,
+   "gain PG": 1.0666666666666667
+  },
+  "matched 0.0001": {
+   "synth": 637.1698113207547,
+   "PG": 545.3638814016173,
+   "no rotations": 497.1698113207547,
+   "rotation share (synth)": 0.21972164643174416,
+   "gain PG": 1.1683388523698905,
+   "gain bound": 1.281593927893738
+  },
+  "BEST 0.0001": {
+   "synth_run": 1062301064400,
+   "PG_run": 1074290918400,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9888392857142857
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 8,
+  "N": 192,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.00020171788261496963,
+  "R": 4,
+  "b": 13,
+  "n3": 406,
+  "t": 8,
+  "T_rot_synth": 156,
+  "T_per_rot_synth": 39.0,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 1788,
+   "PG": 1808
+  },
+  "matched 0.001": {
+   "synth": 786.2391304347826,
+   "PG": 697.6739130434783,
+   "no rotations": 630.2391304347826,
+   "rotation share (synth)": 0.19841291785329168,
+   "gain PG": 1.126943570248964,
+   "gain bound": 1.247525093994688
+  },
+  "BEST 0.001": {
+   "synth_run": 398542816800000,
+   "PG_run": 370775489400000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0748898678414096,
+   "gain PG": 1.0748898678414096
+  },
+  "matched 0.0001": {
+   "synth": 653.1698113207547,
+   "PG": 550.1832884097036,
+   "no rotations": 497.1698113207547,
+   "rotation share (synth)": 0.23883528800046222,
+   "gain PG": 1.1871858434826912,
+   "gain bound": 1.3137760910815939
+  },
+  "BEST 0.0001": {
+   "synth_run": 32104451880000,
+   "PG_run": 32463562080000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9889380530973452
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 10,
+  "N": 300,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.0002551551815399144,
+  "R": 8,
+  "b": 13,
+  "n3": 658,
+  "t": 8,
+  "T_rot_synth": 312,
+  "T_per_rot_synth": 39.0,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 2952,
+   "PG": 2992
+  },
+  "matched 0.001": {
+   "synth": 1328.4565217391305,
+   "PG": 1151.3260869565217,
+   "no rotations": 1016.4565217391304,
+   "rotation share (synth)": 0.23485902240259207,
+   "gain PG": 1.153849058741338,
+   "gain bound": 1.306948692174434
+  },
+  "BEST 0.001": {
+   "synth_run": 104383196760000,
+   "PG_run": 95705865000000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0906666666666667,
+   "gain PG": 1.0906666666666667
+  },
+  "matched 0.0001": {
+   "synth": 1112.7924528301887,
+   "PG": 906.8194070080863,
+   "no rotations": 800.7924528301887,
+   "rotation share (synth)": 0.2803757333242904,
+   "gain PG": 1.2271378890110871,
+   "gain bound": 1.3896140615428114
+  },
+  "BEST 0.0001": {
+   "synth_run": 2765125706400,
+   "PG_run": 2802593534400,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{9,3,3}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9866310160427807
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 10,
+  "N": 300,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 8.068715304598785e-05,
+  "R": 8,
+  "b": 15,
+  "n3": 658,
+  "t": 8,
+  "T_rot_synth": 340,
+  "T_per_rot_synth": 42.5,
+  "toffoli_per_rot_PG": 13,
+  "one_time": {
+   "logical_qubits": 30,
+   "gradient_state_rotations": 15
+  },
+  "T4": {
+   "synth": 2980,
+   "PG": 3056
+  },
+  "matched 0.001": {
+   "synth": 1356.4565217391305,
+   "PG": 1175.8478260869565,
+   "no rotations": 1016.4565217391304,
+   "rotation share (synth)": 0.25065307626969247,
+   "gain PG": 1.1535986984414577,
+   "gain bound": 1.3344953696772677
+  },
+  "BEST 0.001": {
+   "synth_run": 1061692369920000,
+   "PG_run": 977471580960000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0861618798955615,
+   "gain PG": 1.0861618798955615
+  },
+  "matched 0.0001": {
+   "synth": 1140.7924528301887,
+   "PG": 926.0970350404313,
+   "no rotations": 800.7924528301887,
+   "rotation share (synth)": 0.2980384373656181,
+   "gain PG": 1.2318282098596551,
+   "gain bound": 1.4245794260402431
+  },
+  "BEST 0.0001": {
+   "synth_run": 83605378080000,
+   "PG_run": 85737595776000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.975130890052356
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 16,
+  "N": 768,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00031894397692489295,
+  "R": 4,
+  "b": 13,
+  "n3": 1566,
+  "t": 8,
+  "T_rot_synth": 136,
+  "T_per_rot_synth": 34.0,
+  "toffoli_per_rot_PG": 11,
+  "one_time": {
+   "logical_qubits": 26,
+   "gradient_state_rotations": 13
+  },
+  "T4": {
+   "synth": 6408,
+   "PG": 6448
+  },
+  "matched 0.001": {
+   "synth": 2544.065217391304,
+   "PG": 2475.5,
+   "no rotations": 2408.065217391304,
+   "rotation share (synth)": 0.05345774906645476,
+   "gain PG": 1.0276975226787737,
+   "gain bound": 1.0564768757165683
+  },
+  "BEST 0.001": {
+   "synth_run": 535092732720000,
+   "PG_run": 527252546160000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0148698884758365,
+   "gain PG": 1.0148698884758365
+  },
+  "matched 0.0001": {
+   "synth": 2030.7978436657681,
+   "PG": 1947.811320754717,
+   "no rotations": 1894.7978436657681,
+   "rotation share (synth)": 0.0669687534011303,
+   "gain PG": 1.042605011084388,
+   "gain bound": 1.0717754669473805
+  },
+  "BEST 0.0001": {
+   "synth_run": 46023563232000,
+   "PG_run": 46310851392000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9937965260545906
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 16,
+  "N": 768,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 0.00010085894130748481,
+  "R": 4,
+  "b": 14,
+  "n3": 1566,
+  "t": 8,
+  "T_rot_synth": 172,
+  "T_per_rot_synth": 43.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 6444,
+   "PG": 6464
+  },
+  "matched 0.001": {
+   "synth": 2580.065217391304,
+   "PG": 2481.6304347826085,
+   "no rotations": 2408.065217391304,
+   "rotation share (synth)": 0.0666649815053546,
+   "gain PG": 1.0396653672638079,
+   "gain bound": 1.07142663693566
+  },
+  "BEST 0.001": {
+   "synth_run": 13735327746240000,
+   "PG_run": 5285587876440000.0,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "catalysed CCZ->2T"
+   },
+   "gain hybrid": 2.598637666675433,
+   "gain PG": 2.598637666675433
+  },
+  "matched 0.0001": {
+   "synth": 2066.797843665768,
+   "PG": 1952.6307277628032,
+   "no rotations": 1894.7978436657681,
+   "rotation share (synth)": 0.08322052421679174,
+   "gain PG": 1.0584683597772582,
+   "gain bound": 1.0907748552569811
+  },
+  "BEST 0.0001": {
+   "synth_run": 462820826232000,
+   "PG_run": 464257265792000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9969059405940595
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 18,
+  "N": 972,
+  "eps": 0.01,
+  "rule": "C",
+  "eps_r": 0.00014175287863328576,
+  "R": 8,
+  "b": 14,
+  "n3": 2022,
+  "t": 8,
+  "T_rot_synth": 344,
+  "T_per_rot_synth": 43.0,
+  "toffoli_per_rot_PG": 12,
+  "one_time": {
+   "logical_qubits": 28,
+   "gradient_state_rotations": 14
+  },
+  "T4": {
+   "synth": 8440,
+   "PG": 8480
+  },
+  "matched 0.001": {
+   "synth": 3450.9347826086955,
+   "PG": 3254.065217391304,
+   "no rotations": 3106.9347826086955,
+   "rotation share (synth)": 0.09968313563432718,
+   "gain PG": 1.0604995757814641,
+   "gain bound": 1.110720058214793
+  },
+  "BEST 0.001": {
+   "synth_run": 908760154680000,
+   "PG_run": 877338056520000,
+   "PG_factories": {
+    "Toffoli-class": "(15-to-1)^6_{13,7,7} x (8-to-CCZ)_{25,15,15}",
+    "T": "(15-to-1)^6_{13,5,5} x (20-to-4)_{23,11,13}"
+   },
+   "gain hybrid": 1.0358152686145146,
+   "gain PG": 1.0358152686145146
+  },
+  "matched 0.0001": {
+   "synth": 2788.210242587601,
+   "PG": 2559.876010781671,
+   "no rotations": 2444.210242587601,
+   "rotation share (synth)": 0.12337663593142477,
+   "gain PG": 1.0891973794215943,
+   "gain bound": 1.1407407570781714
+  },
+  "BEST 0.0001": {
+   "synth_run": 76719650640000,
+   "PG_run": 77083250880000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9952830188679245
+  }
+ },
+ {
+  "lattice": "kagome",
+  "method": "triangle",
+  "L": 18,
+  "N": 972,
+  "eps": 0.001,
+  "rule": "C",
+  "eps_r": 4.482619613665992e-05,
+  "R": 8,
+  "b": 16,
+  "n3": 2022,
+  "t": 8,
+  "T_rot_synth": 368,
+  "T_per_rot_synth": 46.0,
+  "toffoli_per_rot_PG": 14,
+  "one_time": {
+   "logical_qubits": 32,
+   "gradient_state_rotations": 16
+  },
+  "T4": {
+   "synth": 8464,
+   "PG": 8544
+  },
+  "matched 0.001": {
+   "synth": 3474.9347826086955,
+   "PG": 3278.586956521739,
+   "no rotations": 3106.9347826086955,
+   "rotation share (synth)": 0.10590126808760877,
+   "gain PG": 1.0598879421808176,
+   "gain bound": 1.118444713439081
+  },
+  "BEST 0.001": {
+   "synth_run": 22833063306240000,
+   "PG_run": 23048876759040000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)^4_{13,5,5} x (20-to-4)_{27,13,15}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9906367041198502
+  },
+  "matched 0.0001": {
+   "synth": 2812.210242587601,
+   "PG": 2579.153638814016,
+   "no rotations": 2444.210242587601,
+   "rotation share (synth)": 0.13085792606366156,
+   "gain PG": 1.0903616598353374,
+   "gain bound": 1.1505598796650205
+  },
+  "BEST 0.0001": {
+   "synth_run": 769374959232000,
+   "PG_run": 776646934272000,
+   "PG_factories": {
+    "Toffoli-class": "4 T",
+    "T": "(15-to-1)_{11,5,5}"
+   },
+   "gain hybrid": 1.0,
+   "gain PG": 0.9906367041198502
+  }
+ }
+]

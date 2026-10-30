@@ -1,4 +1,4 @@
-# Results: magic-state-aware block encodings (phases 0-5, non-HPC scope)
+# Results: magic-state-aware block encodings (phases 0-6, non-HPC scope)
 
 Written 2026-10-29. Plan and go/no-go criteria: `docs/PLAN.md`. Every number below comes from `results/` and can be
 re-run with `python -m bet.<module>` (about 15 minutes in total on 4 cores, most of it the Lanczos runs in
@@ -31,6 +31,7 @@ stated model, **[Guessing]** = depends on an unverified input.
 | 3 | Do patches chosen to suit the factories pay? | **[Certain]** The optimal triangle reflection has entries 1/3, 2/3, outside Z[1/sqrt2, i], so it has no exact Clifford+T circuit. The smallest admissible normalisation (4/3 larger) costs 1.16-1.18x in lambda_eff even after re-centring. **[Likely]** That pays only where rotations exceed ~15% of the query cost (L <= 10). Synthillation of the local block is bounded by <= 1.2x from L = 16 up. Nested reflections reach optimal normalisation without eigenvalue rotations but move the same number of rotations into PREPARE. | **fail** (needs <= 10% penalty) |
 | 4 | Can routing layers be cheaper than one CCZ per CSWAP? | **[Certain]** The Bell rewrite of CSWAP layers into shared-control CCZ batches checks to 1e-14. PyZX finds only 6m + (m mod 2) T for m CCZs, never below the measurement-based 4m. **[Likely]** One CCZ per CSWAP is the floor, because c * IP(a, b) needs m AND gates. Running one layer per logical step needs 3.6e6-2.3e8 factory qubits, so routing is magic-supply bound. | **fail** |
 | 5 | End to end | **[Certain]** Combining CCZ pricing (Phase 1) with the second-order rule (Phase 2b) gives 2.1-2.7x less factory space-time than the T-count convention for the routed triangle walk. Where the run outgrows the single published CCZ factory at p = 1e-3 (5.2e-11 per state), the gain falls to 1.03-1.5x. The triangle walk beats Trotter with Hamming-weight phasing by 1.2-100x here. On kagome at eps = 1e-2 the gap closes with N (0.82 at N = 972). | - |
+| 6 | Do rotations pay as phase-gradient additions once Toffolis are CCZ-priced? | **[Certain]** Under 4 T per Toffoli, phase gradient ties synthesis (0.94-1.01x), as `lcvcbe` found. At matched-fidelity CCZ pricing a rotation costs b - 2 = 9-14 CCZ states (14-21 T-equivalents) against 28-46 T for gridsynth under rule C. **[Certain]** On the whole triangle walk this gives 1.01-1.34x at p = 1e-3 (1.01-1.51x at p = 1e-4). The upper bound, if rotations were free, is 1.01-1.85x. Rotations are 5-46% of a query's cost, and their share falls with N as routing grows. Tier-honest BEST pricing gives at most 1.2x, apart from factory-tier jumps such as kagome L = 16 (2.6x). There, removing rotation T states keeps the run inside the single CCZ factory's capacity. **[Certain]** QROM angle lookup has nothing to act on: the 4-8 rotations per query are fixed angles applied in every query, not selected by an index. | **fail** (needs >= 1.5x) |
 
 ## What this means
 
@@ -51,6 +52,10 @@ stated model, **[Guessing]** = depends on an unverified input.
 4. **[Guessing]** The biggest remaining lever on the factory side is a CCZ factory menu that is denser in
    fidelity. Litinski lists one CCZ protocol per physical error rate, and the CCZ gain vanishes where that one
    protocol is not good enough (square L >= 30 at eps = 1e-3).
+
+5. **[Likely]** Rotations are not the lever. Pricing Toffolis as CCZ states turns the phase-gradient trade-off in
+   favour of additions, but rotations are too small a share of a routed query for this to matter beyond L ~ 10
+   (Phase 6). Only the routing cost moves the total.
 
 ## Caveats
 
